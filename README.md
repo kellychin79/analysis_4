@@ -1,6 +1,7 @@
 # Vehicle Routing Workbook
 
-This is a playbook for exercising above questions.
+`VRP_code.ipynb` is a playbook for exercising point-to-point questions.
+`routing_with_xy_coordinates.ipynb` is a playbook for exercising the routing questions.
 
 ## From Point to Point 
 
@@ -12,7 +13,7 @@ This is a playbook for exercising above questions.
 
 - How to figure out the best route in terms of travel time or travel distance?
 
-## From The Route Perspective
+## From The Routing Perspective
 
 According to Wikipedia, 
 
