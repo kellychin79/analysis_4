@@ -18,8 +18,7 @@ According to Wikipedia,
 
 > The vehicle routing problem is a combinatorial optimization and integer programming problem which asks "What is the optimal set of routes for a fleet of vehicles to traverse in order to deliver to a given set of customers?" 
 
-<img src="https://www.researchgate.net/profile/El-Bouzekri-El-Idrissi-Adiba/publication/285712366/figure/fig1/AS:1128429042839552@1646049857004/The-Capacitated-Vehicle-Routing-Problem-Scheme-The-capacitated-vehicle-routing-problem.png"/>
-
+<img src="https://www.researchgate.net/profile/El-Bouzekri-El-Idrissi-Adiba/publication/285712366/figure/fig1/AS:1128429042839552@1646049857004/The-Capacitated-Vehicle-Routing-Problem-Scheme-The-capacitated-vehicle-routing-problem.png" width="500" height="600"/>
 
 ___
 
