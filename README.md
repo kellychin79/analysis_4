@@ -1,6 +1,7 @@
 # Vehicle Routing Workbook
 
 `VRP_code.ipynb` is a playbook for exercising point-to-point questions.
+
 `routing_with_xy_coordinates.ipynb` is a playbook for exercising the routing questions.
 
 ## From Point to Point 
@@ -19,7 +20,9 @@ According to Wikipedia,
 
 > The vehicle routing problem is a combinatorial optimization and integer programming problem which asks "What is the optimal set of routes for a fleet of vehicles to traverse in order to deliver to a given set of customers?" 
 
-<img src="https://www.researchgate.net/profile/El-Bouzekri-El-Idrissi-Adiba/publication/285712366/figure/fig1/AS:1128429042839552@1646049857004/The-Capacitated-Vehicle-Routing-Problem-Scheme-The-capacitated-vehicle-routing-problem.png" width="500" height="600"/>
+<img src="https://github.com/kellychin79/vehicle_routing/blob/main/image.png" width="500" height="600" alt="me" />
+
+<sub><sup>source: https://www.researchgate.net/figure/The-Capacitated-Vehicle-Routing-Problem-Scheme-The-capacitated-vehicle-routing-problem_fig1_285712366</sup></sub>
 
 ___
 
