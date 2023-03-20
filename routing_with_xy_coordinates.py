@@ -624,78 +624,41 @@ random.seed(5910)
 run_v3(max_range=100, num_dest=4)
 
 
-# In[116]:
+# In[122]:
 
-
-a = time.time()
 
 random.seed(110)
 
 run_v3(max_range=100, num_dest=4)
 
-print('Elasped time:'+str(round(time.time()-a,2))+'sec')
-
 
 # It seems to work!
 
-# In[117]:
+# How does the runtime increase as the nodes increase?
+
+# In[137]:
 
 
-a = time.time()
+v = 11
+elapsed_time = []
 
-random.seed(110)
+for i in range(3, v):
+    a = time.time()
+    
+    random.seed(110)
 
-run_v3(max_range=100, num_dest=5)
+    run_v3(max_range=100, num_dest=i)
 
-print('Elasped time:'+str(round(time.time()-a,2))+'sec')
-
-
-# In[118]:
-
-
-a = time.time()
-
-random.seed(110)
-
-run_v3(max_range=100, num_dest=6)
-
-print('Elasped time:'+str(round(time.time()-a,2))+'sec')
+    elapsed_time.append(round(time.time()-a,2))
+    
 
 
-# In[119]:
+# In[138]:
 
 
-a = time.time()
-
-random.seed(110)
-
-run_v3(max_range=100, num_dest=7)
-
-print('Elasped time:'+str(round(time.time()-a,2))+'sec')
-
-
-# In[120]:
-
-
-a = time.time()
-
-random.seed(110)
-
-run_v3(max_range=100, num_dest=8)
-
-print('Elasped time:'+str(round(time.time()-a,2))+'sec')
-
-
-# In[121]:
-
-
-a = time.time()
-
-random.seed(110)
-
-run_v3(max_range=100, num_dest=9)
-
-print('Elasped time:'+str(round(time.time()-a,2))+'sec')
+plt.plot([i for i in range(3,v)], elapsed_time)
+plt.xlabel('Number of Nodes')
+plt.ylabel('Elapsed Time in Seconds')
 
 
 # In[ ]:
