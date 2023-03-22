@@ -24,6 +24,12 @@ According to Wikipedia,
 
 <sub><sup>source: https://www.researchgate.net/figure/The-Capacitated-Vehicle-Routing-Problem-Scheme-The-capacitated-vehicle-routing-problem_fig1_285712366</sup></sub>
 
+If there are 1 depo and 5 destinations, all possible paths are 4 * 3 * 2 = 24 paths. For 1 vehicle, we want to find the best route of 6 paths (1 path to 1 destination + back to depo). 
+
+The performance was fairly fine in getting solutions within 1 second for 3 to 8 destinations. The runtime increased to 15 seconds for 9 destinations and had exponential increase to 165 seconds when it reaches 10 desintaions.
+
+## Considering multiple vehicles...
+
 ___
 
 
